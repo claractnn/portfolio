@@ -27,10 +27,22 @@ ul.icons-language li {
         color: #30A0D1 !important;
     }
 
+.color-sass {
+    color: #C26192 !important;
+}
+    .color-sass:hover {
+        color: #C26192 !important;
+    }
+    
+
 /* COLORS TITLES PAGES PROJETS */
 
 .color-booki {
     color: #0065FC;
+}
+
+.color-ohmyfood {
+    color: #9356DC;
 }
 
 /* BUTTON */
