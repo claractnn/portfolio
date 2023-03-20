@@ -16,13 +16,34 @@ ul.icons-language li {
 .color-html {
     color: orange;
 }
+    .color-html:hover {
+        color: orange !important;
+    }
 
 .color-css {
     color: #30A0D1;
 }
+    .color-css:hover {
+        color: #30A0D1 !important;
+    }
 
 /* COLORS TITLES PAGES PROJETS */
 
 .color-booki {
     color: #0065FC;
 }
+
+/* BUTTON */
+
+.button-projet {
+    width: auto !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 4em;
+}
+
+
+
+
+
