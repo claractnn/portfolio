@@ -9,6 +9,9 @@
 ul.icons-language li {
     font-size: 1.5em !important;
     padding-top: 1em !important;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 
 /* COLORS LANGAGES*/
@@ -28,13 +31,19 @@ ul.icons-language li {
     }
 
 .color-sass {
-    color: #C26192 !important;
+    color: #C26192;
 }
     .color-sass:hover {
         color: #C26192 !important;
     }
     
+.color-js {
+    color: #E9D41D;
+}
 
+    .color-js:hover {
+        color: #E9D41D !important;
+    }
 /* COLORS TITLES PAGES PROJETS */
 
 .color-booki {
@@ -49,6 +58,10 @@ ul.icons-language li {
     color: #F3976C;
 }
 
+.color-kanap {
+    color: #3597DB;
+}
+
 /* BUTTON */
 
 .button-projet {
@@ -60,6 +73,9 @@ ul.icons-language li {
 }
 
 
+/* LOGO IMAGES LANGAGE */
 
-
-
+.logo-langage {
+    height: 2px;
+    width: auto;
+}
