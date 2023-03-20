@@ -1,0 +1,28 @@
+/* TITLES H2 */
+
+.title-page {
+    margin: 0 !important;
+}
+
+/* ICONS LANGUAGES */
+
+ul.icons-language li {
+    font-size: 1.5em !important;
+    padding-top: 1em !important;
+}
+
+/* COLORS LANGAGES*/
+
+.color-html {
+    color: orange;
+}
+
+.color-css {
+    color: #30A0D1;
+}
+
+/* COLORS TITLES PAGES PROJETS */
+
+.color-booki {
+    color: #0065FC;
+}
