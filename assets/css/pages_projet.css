@@ -75,7 +75,13 @@ ul.icons-language li {
 
 /* LOGO IMAGES LANGAGE */
 
-.logo-langage {
-    height: 2px;
-    width: auto;
+.logo-language {
+    height: 20px;
+}
+
+.icons-language {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
 }
