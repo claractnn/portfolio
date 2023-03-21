@@ -44,6 +44,15 @@ ul.icons-language li {
     .color-js:hover {
         color: #E9D41D !important;
     }
+
+.color-nodejs {
+    color: #3F883B;
+}
+
+    .color-nodejs:hover {
+        color: #3F883B;
+    }
+
 /* COLORS TITLES PAGES PROJETS */
 
 .color-booki {
@@ -72,16 +81,19 @@ ul.icons-language li {
     margin-bottom: 4em;
 }
 
-
 /* LOGO IMAGES LANGAGE */
 
 .logo-language {
-    height: 20px;
+    height: 0.8em;
 }
 
+
+.icons li {
+    font-size: 2em;
+}
 .icons-language {
     display: flex;
-    flex-direction: row;
     align-items: center;
     justify-content: flex-start;
+    flex-wrap: wrap;
 }
