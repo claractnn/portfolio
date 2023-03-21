@@ -50,7 +50,7 @@ ul.icons-language li {
 }
 
     .color-nodejs:hover {
-        color: #3F883B;
+        color: #3F883B !important;
     }
 
 /* COLORS TITLES PAGES PROJETS */
