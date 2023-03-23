@@ -138,7 +138,13 @@ ul.icons-language li {
     flex-wrap: wrap;
 }
 
-/* PAGE PROFIL */
+/* PAGE INDEX */
+
+.bloc-index {
+    margin-top: 5em;
+}
+
+
 
 .color-profil {
     color: #c96289;
