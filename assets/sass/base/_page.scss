@@ -32,7 +32,10 @@
 		*, *:before, *:after {
 			box-sizing: inherit;
 		}
-
+	a {
+		cursor: pointer;
+	}
+	
 	body {
 		background: _palette(bg);
 
