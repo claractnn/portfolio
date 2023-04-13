@@ -1,0 +1,195 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+	<title>Piiquante</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<link rel="stylesheet" href="../assets/css/main.css" />
+	<link rel="stylesheet" href="../assets/css/pages_projet.css" />
+	<noscript>
+		<link rel="stylesheet" href="../assets/css/noscript.css" />
+	</noscript>
+</head>
+
+<body class="is-preload">
+	<!-- Wrapper -->
+	<div id="wrapper">
+
+		<!-- Header -->
+		<header id="header">
+			<div class="inner">
+
+				<!-- Logo -->
+				<a href="../index.html" class="logo">
+					<span class="symbol name-title">
+						<img src="../images/logos/clara_cercle.png" class="logo-title icon brands" />
+						<span class="title">Clara Coatanoan, développeuse web</span>
+				</a>
+
+				<!-- Nav -->
+				<nav>
+					<ul>
+						<li class="nav-header">
+							<h3><a href="../index.html">Accueil</a></h3>
+						</li>
+						<!--<li><a href="#menu">Menu</a></li>-->
+					</ul>
+				</nav>
+
+			</div>
+		</header>
+
+		<!-- Menu -->
+		<!--<nav id="menu">
+            <h2>Menu</h2>
+            <ul>
+                <li><a href="../index.html">Accueil</a></li>
+                <li><a href="../profil.html">Profil</a></li>
+                <li><a href="../contact.html">Contact</a></li>
+            </ul>
+        </nav>-->
+
+		<!-- Main -->
+		<div id="main">
+			<div class="inner">
+				<h1>Piiquante</h1>
+				<h2 class="title-page color-piiquante">Objectifs</h2>
+				<p>
+					・Construire une API sécurisée avec des contrôleurs, middlewares, modèles et routes. Les utilisateurs peuvent créer un compte et se connecter avec certaines conditions comme par exemple les spécifités d'autorisation du mot de passe et de l'adresse mail.</br>
+                    ・Les utilisateurs doivent pouvoir créer des sauces, les modifier, les supprimer et les liker/disliker.
+				</p>
+				<span class="image main"><a href="https://github.com/claractnn/P6-OpenClassrooms-Piiquante"><img
+							src="../images/mockups/mockup_piiquante.webp" alt="mockup Piiquante" /></a></span>
+				<div class="buttonsLinks">
+					<!--<div class="button-projet">
+						<a type="button" href="https://claractnn.github.io/P4-OpenClassrooms-La-Panthere" target="_blank" class="button">Voir le
+							site</a>
+					</div>-->
+					<div class="button-projet">
+						<a type="button" href="https://github.com/claractnn/P6-OpenClassrooms-Piiquante" target="_blank"
+							class="button">CODE</a>
+					</div>
+				</div>
+				<h2 class="title-page color-piiquante">Langages et technologies utilisés</h2>
+				<ul class="icons icons-language">
+					<li>
+						<a href="https://developer.mozilla.org/fr/docs/Web/JavaScript"
+							class="icon brands style1 color-js fa-js"><span class="label">JavaScript</span></a>
+					</li>
+                    <li class="icons-bloc">
+                        <i class="icon brands style1 color-mongodb fa-envira"><span class="label">MongoDB</span></i>
+                        <p>Mongo DB</p>
+                    </li>
+					<li>
+						<a href="https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs"
+							class="icon brands style1 color-nodejs fa-node-js"><span class="label">NodeJs</span></a>
+					</li>
+					<li>
+						<a href="https://developer.mozilla.org/fr/docs/Learn/Tools_and_testing/GitHub"
+							class="icon brands style1 color-git fa-git-alt"><span class="label">Git</span></a>
+					</li>
+					<li>
+						<a href="https://developer.mozilla.org/fr/docs/Learn/Tools_and_testing/GitHub"
+							class="icon brands style1 color-github fa-github"><span class="label">Github</span></a>
+					</li>
+					<!--<li>
+						<span><img src="../images/logos/logo_mongodb.png" class="logo-language image" alt="logo mongoDB"/><a href="https://developer.mozilla.org/fr/docs/Web/JavaScript"></a></span>
+					</li>-->
+				</ul>
+				<h2 class="title-page color-piiquante">Contexte</h2>
+				<p>
+					Piiquante se dédie à la création de sauces épicées dont les recettes sont gardées secrètes. Pour tirer parti de son succès et générer davantage de buzz, l'entreprise souhaite créer une application web dans laquelle les utilisateurs peuvent ajouter leurs sauces préférées et liker ou disliker les sauces ajoutées par les autres.
+				</p>
+				<h2 class="title-page color-piiquante">Installation</h2>
+				<p>
+					・Télécharger 'Node.js' si besoin</br>
+                    ・Installer les modules avec 'npm install'</br>
+                    ・Démarrer le serveur avec 'nodemon server' si besoin</br>
+                    ・Cloner le repository qui contient le frontend : https://github.com/OpenClassrooms-Student-Center/Web-Developer-P6
+                    
+				</p>
+				<h2 class="title-page color-piiquante">Compétences évaluées</h2>
+				<p>
+					・Mettre en œuvre des opérations CRUD de manière sécurisée</br>
+                    ・Implémenter un modèle logique de données conformément à la réglementation</br>
+                    ・Stocker des données de manière sécurisée
+				</p>
+				<h2 class="title-page color-piiquante">Exigences de sécurité</h2>
+				<p>
+					・Le mot de passe de l'utilisateur doit être haché.</br>
+                    ・L'authentification doit être renforcée sur toutes les routes sauce requises.</br>
+                    ・Les adresses électroniques dans la base de données sont uniques et un plugin Mongoose approprié est utilisé pour garantir leur unicité et signaler les erreurs.</br>
+                    ・La sécurité de la base de données MongoDB (à partir d'un service tel que MongoDB Atlas) ne doit pas empêcher l'application de se lancer sur la machine d'un utilisateur.</br>
+                    ・Un plugin Mongoose doit assurer la remontée des erreurs issues de la base de données.</br>
+                    ・Les versions les plus récentes des logiciels sont utilisées avec des correctifs de sécurité actualisés.</br>
+                    ・Le contenu du dossier images ne doit pas être téléchargé sur GitHub.
+				</p>
+				<h2 class="title-page color-piiquante">Routes de l'API</h2>
+				<p>
+					・Toutes les routes sauce pour les sauces doivent disposer d’une autorisation (le token est envoyé par le front-end avec l'en-tête d’autorisation : « Bearer token »). </br>
+                    ・Avant que l'utilisateur puisse apporter des modifications à la route sauce, le code doit vérifier si l'userId actuel correspond à l'userId de la sauce. Si l'userId ne correspond pas, renvoyer « 403: unauthorized request. » Cela permet de s'assurer que seul le propriétaire de la sauce peut apporter des modifications à celle-ci.
+				</p>
+				<h2 class="title-page color-piiquante">Précisions des variables d'environnement</h2>
+				<p>
+					Créer un fichier .env à partir du fichier .env.sample qui permet de préciser les variables d'environnement</br>
+                    </br>
+                    ・DB_URI=Adresse de connexion à la base de données MongoDB</br>
+                    ・SECRET_TOKEN=Clé secrète qui permet de valider le token JWT</br>
+                    ・TOKEN_LIFETIME=Expiration du token (format xxh, exemple: 24h)</br>
+                    ・CRYPTO_MAIL=Clé secrète qui permet de crypter les adresses email
+				</p>
+			</div>
+		</div>
+
+		<!-- Footer -->
+		<footer id="footer">
+			<div class="inner">
+				<!--<section>
+					<h2>Get in touch</h2>
+					<form method="post" action="#">
+						<div class="fields">
+							<div class="field half">
+								<input type="text" name="name" id="name" placeholder="Name" />
+							</div>
+							<div class="field half">
+								<input type="email" name="email" id="email" placeholder="Email" />
+							</div>
+							<div class="field">
+								<textarea name="message" id="message" placeholder="Message"></textarea>
+							</div>
+						</div>
+						<ul class="actions">
+							<li><input type="submit" value="Send" class="primary" /></li>
+						</ul>
+					</form>
+				</section>-->
+				<section>
+					<h2>Où me trouver</h2>
+					<ul class="icons">
+						<li><a href="https://www.linkedin.com/in/clara-coatanoan/"
+								class="icon brands style2 fa-linkedin"><span class="label">LinkedIn</span></a></li>
+						<li><a href="https://github.com/claractnn/" class="icon brands style2 fa-github"><span
+									class="label">GitHub</span></a></li>
+						<li><a href="mailto:ccoatanoan@gmail.com" class="icon solid style2 fa-envelope"><span
+									class="label">Email</span></a></li>
+					</ul>
+				</section>
+				<!--<ul class="copyright">
+					<li>&copy; Untitled. All rights reserved</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+				</ul>-->
+			</div>
+		</footer>
+
+	</div>
+
+	<!-- Scripts -->
+	<script src="../assets/js/jquery.min.js"></script>
+	<script src="../assets/js/browser.min.js"></script>
+	<script src="../assets/js/breakpoints.min.js"></script>
+	<script src="../assets/js/util.js"></script>
+	<script src="../assets/js/main.js"></script>
+
+</body>
+
+</html>
