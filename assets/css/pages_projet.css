@@ -61,7 +61,14 @@ ul.icons-language li {
     .color-sass:hover {
         color: #C26192 !important;
     }
-    
+
+.color-react {
+    color: #01D6F7;
+}
+    .color-react:hover {
+        color: #01D6F7 !important;
+    }
+
 .color-js {
     color: #E9D41D;
 }
